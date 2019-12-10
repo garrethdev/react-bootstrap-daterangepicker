@@ -59,12 +59,16 @@ For in depth documentation, see the original
 
 You can pass all the same props as the original plugin:
 
-* **&lt;input&gt;, alwaysShowCalendars, applyClass, autoApply, autoUpdateInput,
-  buttonClasses, cancelClass, dateLimit, drops, endDate, isCustomDate,
-  isInvalidDate, linkedCalendars, locale, maxDate, minDate, opens, parentEl,
-  ranges, showCustomRangeLabel, showDropdowns, showISOWeekNumbers,
-  showWeekNumbers, singleDatePicker, startDate, template, timePicker,
-  timePicker24Hour, timePickerIncrement, timePickerSeconds**
+* **&lt;input&gt;, alwaysShowCalendars, apply.daterangepicker,
+  applyButtonClasses, autoApply, autoUpdateInput, buttonClasses,
+  cancel.daterangepicker, cancelButtonClasses, drops, endDate,
+  hide.daterangepicker, hideCalendar.daterangepicker, isCustomDate,
+  isInvalidDate, linkedCalendars, locale, maxDate, maxSpan, maxYear, minDate,
+  minYear, moment, opens, parentEl, ranges, setEndDate(Date or string),
+  setStartDate(Date or string), show.daterangepicker,
+  showCalendar.daterangepicker, showCustomRangeLabel, showDropdowns,
+  showISOWeekNumbers, showWeekNumbers, singleDatePicker, startDate, template,
+  timePicker, timePicker24Hour, timePickerIncrement, timePickerSeconds**
 
 You can listen to the following 7 events:
 
